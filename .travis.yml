@@ -1,5 +1,4 @@
 language: go
 sudo: false
 before_script:
-  - dep ensure
   - go vet ./...
