@@ -65,7 +65,7 @@ Requirements:
 ## Development
 In order to contribute to the development of this project, or to fork and make your own changes, you'll need the following:
 
-* Go
+* [Go](https://golang.org/)
 * [Dep](https://github.com/golang/dep)
 
 To install the required dependencies, run `dep ensure`, or `make deps`.
