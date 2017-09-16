@@ -38,7 +38,8 @@ Requirements:
 1. Open `http://<ip of machine running mikrocount>:3000` in a browser.  You should be presented with a Grafana login page.
 1. Login using username/password `admin/admin`.
 1. Click "Add data source".
-1. ```
+1. 
+```
 Name: influxdb
 Type: InfluxDB
 Http settings
