@@ -2,3 +2,5 @@ language: go
 sudo: false
 before_script:
   - go vet ./...
+script:
+  - echo "All done for now. More to come..."
