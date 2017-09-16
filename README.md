@@ -38,17 +38,17 @@ Requirements:
 1. Open `http://<ip of machine running mikrocount>:3000` in a browser.  You should be presented with a Grafana login page.
 1. Login using username/password `admin/admin`.
 1. Click "Add data source".
-1.  
-  ```
-  Name: influxdb
-  Type: InfluxDB
-  Http settings
-  Url: http://influxdb:8086
-  Access: Proxy
-  InfluxDB Details
-  Database: mikrocount
-  (leave everything else as is)
-  ```
+1. Fill in the following details:
+    ```
+    Name: influxdb
+    Type: InfluxDB
+    Http settings
+    Url: http://influxdb:8086
+    Access: Proxy
+    InfluxDB Details
+    Database: mikrocount
+    (leave everything else as is)
+    ```
 1. Click "Add" and verify that you get the message "Data source is working" at the bottom of the page.
 1. Click the Grafana logo (top-left corner of the page), hover over "Dashboard" and click "Import".
 1. Click "Upload .json file" and select `dash-example.json` provided in this repo.
