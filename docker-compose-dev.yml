@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  influxdb:
+    image: influxdb:1.3-alpine
+    volumes:
+      - influxdb:/var/lib/influxdb
+
+  grafana:
+    image: grafana/grafana:4.4.3
+    depends_on:
+      - influxdb
+    ports:
+      - 3000:3000
+    environment:
+      - GF_INSTALL_PLUGINS=grafana-piechart-panel
+    volumes:
+      - grafana:/var/lib/grafana
+
+  mikrocount:
+    build: .
+    image: johanmeiring/mikrocount
+    command: -mikrotikaddr=192.168.88.1
+    depends_on:
+      - influxdb
+
+volumes:
+  influxdb:
+  grafana:
