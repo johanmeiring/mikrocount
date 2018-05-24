@@ -94,9 +94,12 @@ func recordEntries(entries []entry, ipnet *net.IPNet, c client.Client) {
 		if ipnet.Contains(e.FromIP) {
 			ip = e.FromIP.String()
 			direction = "Upload"
-		} else {
+		} else if ipnet.Contains(e.ToIP) {
 			ip = e.ToIP.String()
 			direction = "Download"
+		} else {
+			log.Printf("Weirdness! From: %s :: To: %s", e.FromIP.String(), e.ToIP.String())
+			return
 		}
 
 		tags := map[string]string{
