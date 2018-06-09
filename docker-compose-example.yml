@@ -8,7 +8,7 @@ services:
       - influxdb:/var/lib/influxdb
 
   grafana:
-    image: grafana/grafana:4.4.3
+    build: './grafana'
     restart: always
     depends_on:
       - influxdb

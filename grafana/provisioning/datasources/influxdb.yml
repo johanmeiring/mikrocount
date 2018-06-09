@@ -1,0 +1,8 @@
+apiVersion: 1
+
+datasources:
+  - name: influxdb
+    type: influxdb
+    access: proxy
+    database: mikrocount
+    url: http://influxdb:8086
