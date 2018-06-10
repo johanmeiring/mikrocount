@@ -1,5 +1,8 @@
 language: go
 sudo: false
+before_install:
+  - curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+  - cd mikrocount && dep ensure
 before_script:
   - go vet ./...
 script:
