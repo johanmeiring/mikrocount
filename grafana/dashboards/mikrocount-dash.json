@@ -65,7 +65,7 @@
             "bars": false,
             "dashLength": 10,
             "dashes": false,
-            "datasource": "${DS_INFLUXDB}",
+            "datasource": "influxdb",
             "fill": 1,
             "gridPos": {
                 "h": 7,
@@ -182,7 +182,7 @@
         },
         {
             "columns": [],
-            "datasource": "${DS_INFLUXDB}",
+            "datasource": "influxdb",
             "fontSize": "100%",
             "gridPos": {
                 "h": 11,
@@ -347,7 +347,7 @@
                 "label": "Others",
                 "threshold": ""
             },
-            "datasource": "${DS_INFLUXDB}",
+            "datasource": "influxdb",
             "fontSize": "80%",
             "format": "decbytes",
             "gridPos": {
@@ -424,7 +424,7 @@
                 "label": "Others",
                 "threshold": 0
             },
-            "datasource": "${DS_INFLUXDB}",
+            "datasource": "influxdb",
             "fontSize": "80%",
             "format": "decbytes",
             "gridPos": {
@@ -495,7 +495,7 @@
         },
         {
             "columns": [],
-            "datasource": "${DS_INFLUXDB}",
+            "datasource": "influxdb",
             "fontSize": "100%",
             "gridPos": {
                 "h": 11,
@@ -654,7 +654,7 @@
                 "label": "Others",
                 "threshold": 0
             },
-            "datasource": "${DS_INFLUXDB}",
+            "datasource": "influxdb",
             "fontSize": "80%",
             "format": "decbytes",
             "gridPos": {
@@ -729,7 +729,7 @@
                 "label": "Others",
                 "threshold": 0
             },
-            "datasource": "${DS_INFLUXDB}",
+            "datasource": "influxdb",
             "fontSize": "80%",
             "format": "decbytes",
             "gridPos": {
