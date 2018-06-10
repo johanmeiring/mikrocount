@@ -18,9 +18,9 @@ services:
       - grafana:/var/lib/grafana
 
   mikrocount:
-    build: .
+    build: './mikrocount'
     image: johanmeiring/mikrocount
-    command: -mikrotikaddr=192.168.88.1
+    command: '-mikrotikaddr=192.168.88.1'
     depends_on:
       - influxdb
 
