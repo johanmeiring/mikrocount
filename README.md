@@ -25,6 +25,7 @@ Note:
 
 * If your network is very busy, you should set the threshold to a higher value.  Mikrocount queries the Mikrotik router for data every 15 seconds.
 * It is strongly recommended that access to your router from the internet over HTTP/HTTPS be blocked by the firewall.
+* The accounting feature of Mikrotik doesn't appear to work properly at all for packets that are [fasttracked](https://wiki.mikrotik.com/wiki/Manual:IP/Fasttrack).  If you want accurate results from this tool, I recommend you disable the fasttrack feature.
 
 ### Running the Mikrocount suite
 
