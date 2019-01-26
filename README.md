@@ -1,6 +1,6 @@
 # Mikrocount
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/johanmeiring/mikrocount)](https://goreportcard.com/report/github.com/johanmeiring/mikrocount) [![Software License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-round)](https://github.com/johanmeiring/mikrocount/blob/master/LICENSE) [![Build Status](https://travis-ci.org/johanmeiring/mikrocount.svg?branch=master)](https://travis-ci.org/johanmeiring/mikrocount)
+[![Go Report Card](https://goreportcard.com/badge/github.com/johanmeiring/mikrocount)](https://goreportcard.com/report/github.com/johanmeiring/mikrocount) [![Software License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-round)](https://github.com/johanmeiring/mikrocount/blob/master/LICENSE) [![Build Status](https://travis-ci.com/johanmeiring/mikrocount.svg?branch=master)](https://travis-ci.com/johanmeiring/mikrocount)
 
 Mikrocount is a suite of tools that aid in visualising external network activity that goes through a Mikrotik router.  It consists of:
 
